@@ -1,0 +1,31 @@
+{
+  "name": "rnCamel",
+  "version": "1.0.0",
+  "description": "rename to camelCase",
+  "main": "rnCamel.js",
+  "scripts": {
+    "start": "node rnCamel.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BakedSnake/rename-files-and-folders-to-camelCase.git"
+  },
+  "keywords": [
+    "rename",
+    "files",
+    "folders",
+    "to",
+    "camelCase"
+  ],
+  "author": "@BakedSnake",
+  "license": "ISC",
+  "bugs" : {
+    "url": "https://github.com/BakedSnake/rename-files-and-folders-to-camelCase/issues"
+  },
+  "homepage": "https://github.com/BakedSnake/rename-files-and-folders-to-camelCase",
+  "dependencies": {
+    "camelcase": "^5.3.1",
+    "fs": "0.0.1-security",
+    "ncp": "^2.0.0"
+  }
+}
